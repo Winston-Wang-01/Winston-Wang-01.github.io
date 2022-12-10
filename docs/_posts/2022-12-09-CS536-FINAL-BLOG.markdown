@@ -5,8 +5,7 @@ date: 2022-12-09 07:36:00 -0000
 categories: 
 ---
 
-
-<img src="purdue-cs-logo.jpg" alt="drawing" width="450"/>
+![Purdue CS Logo](purdue-cs-logo.jpg)
 
 # Validating and Evaluating the Paper, "Implementing AES Encryption on Programmable Switches via Scrambled Lookup"
 
@@ -35,8 +34,11 @@ See the video below for more details on what we did:
 
 Our implementation was run on an AWS EC2 instance with 2vCPU and 8 gb of of memory, and utilizes a 2 switch, 6 host Mininet topology heavily drawing upon the assignment 3 code repository with custom Scapy scripts for packet generation and for collecting metrics such as packect rate to measure encryption overhead.
 
-We evaluated our version of the AES algorithm using Mininet, and investigated the performance differences between AES encrypted networks and networks without AES encryption, and determined the overhead of the encryption process. It can be considered as a network with two segments: one segment is formed with one switch and three hosts, and another segment is formed with one switch and three hosts on the other side. The goal of our implementation is to be able to forward encrypted packets between hosts.
+We evaluated our version of the AES algorithm using Mininet, and investigated the performance differences between AES encrypted networks and networks without AES encryption, and determined the overhead of the encryption process. It can be considered as a network with two segments: one segment is formed with one switch and three hosts, and another segment is formed with one switch and three hosts on the other side. The goal of our implementation is to be able to forward encrypted packets between hosts. See below for our findings:
 
+
+
+![AES Result](AESresult.jpg)
 <img src="AESresult.jpg" alt="drawing1" width="450"/>
 
 ### Conclusion
