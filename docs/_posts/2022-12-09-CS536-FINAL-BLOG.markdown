@@ -29,7 +29,7 @@ See the video below for more details on what we did:
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
-  height: auto;
+  height: 0;
   width: 100%;
 }
 
