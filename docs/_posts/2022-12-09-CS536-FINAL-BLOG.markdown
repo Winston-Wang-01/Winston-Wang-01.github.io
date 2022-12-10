@@ -5,7 +5,7 @@ date: 2022-12-09 07:36:00 -0000
 categories: 
 ---
 
-![Purdue CS Logo](purdue-cs-logo.jpg)
+![Purdue CS Logo](purdue-cs-logo.png)
 
 # Validating and Evaluating the Paper, "Implementing AES Encryption on Programmable Switches via Scrambled Lookup"
 
