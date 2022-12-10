@@ -25,9 +25,29 @@ The key insight of "Implementing AES Encryption on Programmable Switches via Scr
 
 See the video below for more details on what we did:
 
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  width: 100%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+<div class="video-container">
+  <iframe src="[...](https://user-images.githubusercontent.com/54554850/206820592-9539976f-6244-45ae-8c9f-3cb065afaa5c.mp4)"></iframe>
+</div>
 <iframe width="100%" height=auto src="https://user-images.githubusercontent.com/54554850/206820592-9539976f-6244-45ae-8c9f-3cb065afaa5c.mp4"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 (swap out for extended video later?)
+
 
 ## Our Implementation and Results
 
