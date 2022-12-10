@@ -13,7 +13,7 @@ categories:
 
 ## Project Statement
 
-For this project we sought to extend the results of "Implementing AES Encryption on Programmable Switches via Scrambled Lookup Tables" by Xiaoqi Chen using multiple mininet hosts and multiple ONOS switches utilizing programmed with p4 for encryption and decryption. While the original paper only supported a one way encryption between two hosts and one switch, we aim to extend our implementation to more complex topologies while also supporting decryption.
+For this project we sought to extend the results of ["Implementing AES Encryption on Programmable Switches via Scrambled Lookup Tables"](https://www.cs.princeton.edu/~xiaoqic/documents/paper-P4AES-SPIN20.pdf) by Xiaoqi Chen using multiple mininet hosts and multiple ONOS switches utilizing programmed with p4 for encryption and decryption. While the original paper only supported a one way encryption between two hosts and one switch, we aim to extend our implementation to more complex topologies while also supporting decryption.
 
 ## Advanced Encryption Standard
 
