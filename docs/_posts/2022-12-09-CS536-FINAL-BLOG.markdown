@@ -24,8 +24,8 @@ While a successful AES implementation in the data plane would be helpful for a n
 
 The key insight of "Implementing AES Encryption on Programmable Switches via Scrambled Lookup Tables", then, was the utilization of Scrambled Lookup Tables to take advantage of table-matching to reduce the number of arithmetic operations required for encruption.
 
-https://user-images.githubusercontent.com/54554850/206820592-9539976f-6244-45ae-8c9f-3cb065afaa5c.mp4
-
+<iframe width="1487" height="691" src="https://user-images.githubusercontent.com/54554850/206820592-9539976f-6244-45ae-8c9f-3cb065afaa5c.mp4
+" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 (swap out for extended video later?)
 
