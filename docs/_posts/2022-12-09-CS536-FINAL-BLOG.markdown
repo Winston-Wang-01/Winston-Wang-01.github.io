@@ -37,7 +37,7 @@ Our implementation was run on an AWS EC2 instance with 2vCPU and 8 gb of of memo
 
 We evaluated our version of the AES algorithm using Mininet, and investigated the performance differences between AES encrypted networks and networks without AES encryption, and determined the overhead of the encryption process. It can be considered as a network with two segments: one segment is formed with one switch and three hosts, and another segment is formed with one switch and three hosts on the other side. The goal of our implementation is to be able to forward encrypted packets between hosts.
 
-<img src="images/AESresult.jpg" alt="drawing" width="450"/>
+<img src="images/AESresult.jpg" alt="drawing1" width="450"/>
 
 ### Conclusion
 That about wraps it up for our attempt to reproduce the results from the paper "Implementing AES Encryption on Programmable Switches via Scrambled Lookup Tables". We implemented and evaluated a P4 program on Mininet in order to demonstrate the real overhead of adding AES encryption onto the programmable switch and additionally implemented the decryption of packets onto the switch in order to allow packets to be securely sent and read by their intended receiver.
