@@ -7,8 +7,6 @@ categories:
 
 ![Purdue CS Logo](purdue-cs-logo.jpg)
 
-# Validating and Evaluating the Paper, "Implementing AES Encryption on Programmable Switches via Scrambled Lookup"
-
 **Members:** [Rui Zhu](zhu1054@purdue.edu), [Siyu Yao](yao269@purdue.edu), [Byounguk Min]( min87@purdue.edu), [Walter Yarrow](wyarrow@purdue.edu), [Winston Wang](wang4362@purdue.edu)
 
 ## Project Statement
