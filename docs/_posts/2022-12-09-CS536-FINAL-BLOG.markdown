@@ -42,7 +42,8 @@ See the video below for more details on what we did:
 }
 
 <div class="video-container">
-  <iframe src="https://user-images.githubusercontent.com/54554850/206820592-9539976f-6244-45ae-8c9f-3cb065afaa5c.mp4"></iframe>
+  <iframe src="https://user-images.githubusercontent.com/54554850/206820592-9539976f-6244-45ae-8c9f-3cb065afaa5c.mp4
+               "></iframe>
 </div>
 
 (swap out for extended video later?)
