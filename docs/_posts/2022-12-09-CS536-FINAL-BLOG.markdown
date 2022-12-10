@@ -5,7 +5,7 @@ date: 2022-12-09 07:36:00 -0000
 categories: 
 ---
 
-![Purdue CS Logo](purdue-cs-logo.jpg)
+![Purdue CS Logo](https://github.com/Winston-Wang-01/Winston-Wang-01.github.io/blob/gh-pages/purdue-cs-logo.jpg?raw=true)
 
 # Reproducing "Implementing AES Encryption on Programmable Switches via Scrambled Lookup Tables"
 
