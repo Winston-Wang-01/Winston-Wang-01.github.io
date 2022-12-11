@@ -43,6 +43,7 @@ We evaluated our version of the AES algorithm using Mininet, and investigated th
 That about wraps it up for our attempt to reproduce the results from the paper "Implementing AES Encryption on Programmable Switches via Scrambled Lookup Tables". We implemented and evaluated a P4 program on Mininet in order to demonstrate the real overhead of adding AES encryption onto the programmable switch, but due to time and debugging constraints were unable to successfully implement decryption in time. Ultimately, our team learned a lot about the difficulties behind making concrete implementations of theoretical flows we've learned about, as well as core project management lessons like regular meetings and workload distribution.
 
 ## Source Code Repository: 
+If you'd like to take a look at our implementations, the source code link can be found below. The README.md file should contain information on how to run it yourself :)
 
 [https://github.com/ByungUkMin/p4-encryption/](https://github.com/ByungUkMin/p4-encryption/)
 
