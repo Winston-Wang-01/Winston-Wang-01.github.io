@@ -13,7 +13,7 @@ categories:
 
 ## Project Statement
 
-For this project we sought to extend the results of ["Implementing AES Encryption on Programmable Switches via Scrambled Lookup Tables"](https://www.cs.princeton.edu/~xiaoqic/documents/paper-P4AES-SPIN20.pdf) by Xiaoqi Chen using multiple mininet hosts and multiple ONOS switches utilizing programmed with p4 for encryption and decryption. While the original paper only supported a one way encryption between two hosts and one switch, we aim to extend our implementation to more complex topologies while also supporting decryption.
+For this project we sought to extend the results of ["Implementing AES Encryption on Programmable Switches via Scrambled Lookup Tables"](https://www.cs.princeton.edu/~xiaoqic/documents/paper-P4AES-SPIN20.pdf) by Xiaoqi Chen using multiple mininet hosts and multiple ONOS switches utilizing programmed with p4 for encryption and decryption. While the original paper only supported a one way encryption between two hosts and one switch, we aimed to extend our implementation to more complex topologies while also supporting decryption.
 
 ## Advanced Encryption Standard
 
@@ -40,7 +40,7 @@ We evaluated our version of the AES algorithm using Mininet, and investigated th
 ![AES Result](https://github.com/Winston-Wang-01/Winston-Wang-01.github.io/blob/gh-pages/docs/_posts/AESresult.jpg?raw=true)
 
 ### Conclusion
-That about wraps it up for our attempt to reproduce the results from the paper "Implementing AES Encryption on Programmable Switches via Scrambled Lookup Tables". We implemented and evaluated a P4 program on Mininet in order to demonstrate the real overhead of adding AES encryption onto the programmable switch and additionally implemented the decryption of packets onto the switch in order to allow packets to be securely sent and read by their intended receiver.
+That about wraps it up for our attempt to reproduce the results from the paper "Implementing AES Encryption on Programmable Switches via Scrambled Lookup Tables". We implemented and evaluated a P4 program on Mininet in order to demonstrate the real overhead of adding AES encryption onto the programmable switch, but due to time and debugging constraints were unable to successfully implement decryption in time. Ultimately, our team learned a lot about the difficulties behind making concrete implementations of theoretical flows we've learned about, as well as core project management lessons like regular meetings and workload distribution.
 
 ## Source Code Repository: 
 
