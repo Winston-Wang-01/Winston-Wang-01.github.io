@@ -39,6 +39,8 @@ We evaluated our version of the AES algorithm using Mininet, and investigated th
 
 ![AES Result](https://github.com/Winston-Wang-01/Winston-Wang-01.github.io/blob/gh-pages/docs/_posts/graph.png?raw=true)
 
+You can see the rather significant degradation in performance, likely due to high memory usage, despite our utilization of the match action table optimization and reduction of the number of rounds in the AES encryption algorithm. Unfortunately, with no unoptimized AES encryption strategy implemented, it's hard to see the concrete impact of the paper's optimizations here, which reflects a bit of bad experiment design on our part. The fact that these are virtual switches on not actual hardware likely doesn't help either.
+
 ### Conclusion
 That about wraps it up for our attempt to reproduce the results from the paper "Implementing AES Encryption on Programmable Switches via Scrambled Lookup Tables". We implemented and evaluated a P4 program on Mininet in order to demonstrate the real overhead of adding AES encryption onto the programmable switch, but due to time and debugging constraints were unable to successfully implement decryption in time. Ultimately, our team learned a lot about the difficulties behind making concrete implementations of theoretical flows we've learned about, as well as core project management lessons like regular meetings and workload distribution.
 
